@@ -16,7 +16,7 @@ BandG <- 0.889 # Bristow et al (1985), their B coefficient (Eqn 6) as calculated
 
 # read in the daily eddy-covariance data and P-model simulations provided by Beni Stocker (Stocker et al. 2020) together with site details and forcing variables such as temperature, VPD etc.
 
-# see README file for column descriptions:
+# see 'summary' tab for heading descriptions:
 
 ddf <- read_csv("input_data/df_fluxnet-pmodel-forcings_publication.csv") 
 
